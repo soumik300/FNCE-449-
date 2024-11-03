@@ -1,4 +1,29 @@
-# FNCE-449-
-Welcome to my code for FNCE 449 - Term Project. This project will examine the effects of holding international equities in a portfolio to see if it increases portfolio performance.
-The Python file ETF Returns looks at the returns of the following ETFs from 2018 to 2024: SPY, EWC, VGK, MCHI, EWJ, EWY, and INDA. The corresponding graph titled ETF Cumulative Returns compares the returns of the ETFs over this timespan
-The Python file Term Project - FNCE 449 contains the code for the project. I look at two different portfolios, one consisting of local equities, and one with a diversified international portfolio, and then plot their returns on a graph titled Portfolio A v Portfolio B. This shows us how the two portfolios compare over this period. I then run a Monte Carlo Simulation to find the optimal portfolio that returns the best risk-adjusted return over this timespan. This optimal portfolio, Portfolio C is then compared against the former two portfolios to see how the optimal weightage of ETFs affects portfolio returns, as graphed in Portfolio A v B v C. 
+FNCE-449 Term Project
+Welcome to the code repository for my FNCE 449 term project, where I analyze the effects of holding international equities in a portfolio and examine whether this approach enhances portfolio performance.
+
+Project Overview
+This project investigates the performance of two different portfolio strategies from 2018 to 2024:
+
+Local Portfolio (Portfolio A): A portfolio containing only local equities.
+Diversified International Portfolio (Portfolio B): A portfolio with international equity exposure.
+The project culminates in finding an Optimal Portfolio (Portfolio C) through a Monte Carlo Simulation, aiming to maximize risk-adjusted returns by balancing asset allocations among international ETFs.
+
+Files and Structure
+1. ETF Returns.ipynb
+Description: This notebook analyzes the historical returns of the following ETFs from 2018 to 2024:
+SPY - U.S. Equities
+EWC - Canadian Equities
+VGK - European Equities
+MCHI - Chinese Equities
+EWJ - Japanese Equities
+EWY - South Korean Equities
+INDA - Indian Equities
+Output: The notebook produces a graph titled ETF Cumulative Returns, comparing cumulative returns of these ETFs over the selected time period.
+2. Term Project - FNCE 449.ipynb
+Description: The main code file for the project. It includes the following analyses:
+Portfolio A vs. Portfolio B: A comparative analysis and visualization of returns between the local and diversified portfolios over the same period.
+Monte Carlo Simulation: A simulation to determine the optimal asset allocation, resulting in Portfolio C, which aims to achieve the best risk-adjusted return.
+Output: The final visualization, Portfolio A vs. B vs. C, illustrates the cumulative returns of all three portfolios, demonstrating the potential impact of international diversification.
+Key Results
+Comparative Returns: This project highlights the performance variations between a purely local portfolio and one with international exposure, allowing for insights into the benefits (or drawbacks) of geographic diversification.
+Optimal Portfolio Analysis: Using the Monte Carlo approach, I identify an optimal ETF allocation that maximizes risk-adjusted returns, offering a compelling comparison with the static allocations of Portfolios A and B
