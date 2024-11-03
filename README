@@ -9,7 +9,7 @@ Diversified International Portfolio (Portfolio B): A portfolio with internationa
 The project culminates in finding an Optimal Portfolio (Portfolio C) through a Monte Carlo Simulation, aiming to maximize risk-adjusted returns by balancing asset allocations among international ETFs.
 
 Files and Structure
-1. ETF Returns.ipynb
+1. ETF Returns
 Description: This notebook analyzes the historical returns of the following ETFs from 2018 to 2024:
 SPY - U.S. Equities
 EWC - Canadian Equities
@@ -19,7 +19,7 @@ EWJ - Japanese Equities
 EWY - South Korean Equities
 INDA - Indian Equities
 Output: The notebook produces a graph titled ETF Cumulative Returns, comparing cumulative returns of these ETFs over the selected time period.
-2. Term Project - FNCE 449.ipynb
+2. Term Project - FNCE 449
 Description: The main code file for the project. It includes the following analyses:
 Portfolio A vs. Portfolio B: A comparative analysis and visualization of returns between the local and diversified portfolios over the same period.
 Monte Carlo Simulation: A simulation to determine the optimal asset allocation, resulting in Portfolio C, which aims to achieve the best risk-adjusted return.
